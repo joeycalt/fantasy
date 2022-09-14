@@ -1,0 +1,60 @@
+#form-control {
+    height: 500px;
+    width: 3000px;
+    margin-top: 20px;
+}
+
+.add-btn {
+    background-color: rgb(15, 248, 15);
+    border-radius: 20%;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 10%
+}
+
+.add-btn:hover {
+    color: black;
+}
+
+#new-body {
+    background-color: blue;
+    color: white;
+}
+
+.link-title {
+    margin-top: 90px;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.link {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 25px;
+}
+
+.secondP{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.show-fact-page {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-box {
+    height: 500px;
+    width: 1000px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+}

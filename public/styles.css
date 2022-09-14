@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: blue;
+}
+
+div {
+   text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+    transition: 1s;
+}
+
+.team-names {
+    padding: 160px;
+    /* margin-left: 90px; */
+}
+
+.home-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.home-pics {
+    margin-top: -150px;
+}
+
+.division {
+    margin-top: 80px;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid white;
+    margin-left: 560px;
+    margin-right: 560px;
+    text-align: center;
+    border-radius: 20%;
+}
