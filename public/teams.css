@@ -11,3 +11,26 @@
     margin-left: 200px;
     margin-right: 200px;
 }
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        font-size: 15px;
+        padding: 5px;;
+    }
+
+    img{
+        height: 50px;
+        width: 50px;
+    }
+
+    #table {
+       margin-left: -110px;
+       width: 100%;
+    }
+
+    #tableTwo {
+        width: 260px;
+        height: 340px;
+        margin-left: -110px;
+    }
+}
