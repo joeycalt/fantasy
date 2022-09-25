@@ -11,7 +11,7 @@ mongoose.connection.on('connected', () => {
     console.log(`[${new Date().toLocaleTimeString()}] - MongoDB connected`)
 })
 mongoose.connection.on(`error`, () => {
-    console.log(`MongoDB connection error`, error)
+    console.log(`MongoDB connection error`)
 })
 mongoose.connection.on(`disconnected`, () => {
     console.log(`MongoDB disconnected`)
