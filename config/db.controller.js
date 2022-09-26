@@ -1,12 +1,11 @@
 const mongoose = require('mongoose');
-const dotenv = require('dotenv')
-dotenv.config();
+require('dotenv').config();
 
 // MONGODB PATH
 mongoURI = process.env.MONGODB_URI 
 // ^ HERE ^
 
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://joeycalt:joeycalt@mongotest.uibch1m.mongodb.net/?retryWrites=true&w=majority");
 
 mongoose.connection.on('connected', () => {
     console.log(`[${new Date().toLocaleTimeString()}] - MongoDB connected`)
