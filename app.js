@@ -7,8 +7,6 @@ require('./config/db.controller')
 
 
 
-
-
 const mainController = require('./controllers/mainController')
 // const auth_controller = require(`./controllers/auth_controller.js`);
 // const user_controller = require(`./controllers/user_controller.js`);

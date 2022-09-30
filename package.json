@@ -13,19 +13,20 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "git-scripts": "^0.6.4",
-    "surge": "^0.23.1"
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeycalt/fantasy.git"
   },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project /Users/joeycaltabellotta/Documents/JustForFun/ --domain leagueofordinarymen.com"
-    }
-}
+  "bugs": {
+    "url": "https://github.com/joeycalt/fantasy/issues"
+  },
+  "homepage": "https://github.com/joeycalt/fantasy#readme",
+  "description": ""
 }

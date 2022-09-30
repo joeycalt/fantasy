@@ -8,11 +8,13 @@ const bodyParser = require('body-parser');
 const req = require('express/lib/request');
 router.use( bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
-const mongoose = require('mongoose');
-let myId = mongoose.Types.ObjectId()
+// const mongoose = require('mongoose');
+// let myId = mongoose.Types.ObjectId()
+const path = require('path')
 
 router.get('/',function(req,res){
     res.sendFile(path.join(__dirname+'views/show-ff.ejs'));
+    
 });
 
 
