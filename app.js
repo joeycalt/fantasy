@@ -53,4 +53,4 @@ app.use('/', mainController)
 // app.use('/user', user_controller);
 
 // 
-app.listen(PORT,() => console.log(`Listening on port: ${PORT}`));
+app.listen(process.env.PORT || 4000);
