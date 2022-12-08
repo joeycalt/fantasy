@@ -13,13 +13,13 @@ router.use(bodyParser.json());
 const path = require('path')
 
 router.get('/',function(req,res){
-    res.sendFile(path.join(__dirname+'views/show-ff.ejs'));
+    res.sendFile(path.join(__dirname));
     
 });
 
 
 // home
-router.get('/home', (req,res) => {
+router.get('/', (req,res) => {
     res.render('home.ejs')
 })
 
