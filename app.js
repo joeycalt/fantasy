@@ -15,17 +15,6 @@ const mainController = require('./controllers/mainController')
 // CONFIGS
 const app = express();
 const PORT = process.env.PORT || 4000
-// app.use(session({
-//     store: MongoStore.create({mongoUrl: process.env.MONGODB_URI }),
-//     secret: "beans",
-//     resave: false,
-//     saveUninitialized: false,
-//     cookie: {
-//         maxAge: 604800000 //1 week
-//     },
-    
-// }))
-
 
 app.set('view engine', 'ejs')
 
@@ -34,23 +23,8 @@ app.set('view engine', 'ejs')
 app.use(methodOverride('_method'));
 app.use('/public', express.static('public'))
 
-// app.use(function (req, res, next) {
-//     res.locals.user = req.session.currentUser;
-//     next();
-//   });
-
-// const authRequired = function (req, res, next){
-//     if (req.session.currentUser){
-//         return next();
-//     }
-//     return res.redirect('/auth/login')
-// };
-
 // CONTROLLER ROUTING
 app.use('/', mainController)
-// app.use('/comments', authRequired, commentController);
-// app.use('/auth', auth_controller);
-// app.use('/user', user_controller);
 
 // 
 app.listen(process.env.PORT || 4000);
