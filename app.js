@@ -14,7 +14,7 @@ const mainController = require('./controllers/mainController')
 
 // CONFIGS
 const app = express();
-const port = process.env.PORT || 4000
+const PORT = process.env.PORT || 4000
 
 app.set('view engine', 'ejs')
 
@@ -27,4 +27,4 @@ app.use('/public', express.static('public'))
 app.use('/', mainController)
 
 // 
-app.listen(process.env.port || 4000);
+app.listen(process.env.PORT || 4000);

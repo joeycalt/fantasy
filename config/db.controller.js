@@ -7,7 +7,7 @@ mongoURI = process.env.MONGODB_URI
 
 mongoose.set('strictQuery', false);
 
-mongoose.connect('mongoURI' || 4000);
+mongoose.connect(process.env.MONGODB_URI || 4000);
 
 mongoose.connection.on('connected', () => {
     console.log(`[${new Date().toLocaleTimeString()}] - MongoDB connected`)
