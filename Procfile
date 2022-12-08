@@ -1,1 +1,1 @@
-echo "web: nodemon app.js" 
+echo "web: npm run start" 
