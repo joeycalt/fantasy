@@ -5,7 +5,9 @@ require('dotenv').config();
 mongoURI = process.env.MONGODB_URI 
 // ^ HERE ^
 
-mongoose.connect(process.env.MONGODB_URI || 4000);
+mongoose.set('strictQuery', false);
+
+mongoose.connect('process.env.MONGODB_URI' || 4000);
 
 mongoose.connection.on('connected', () => {
     console.log(`[${new Date().toLocaleTimeString()}] - MongoDB connected`)
