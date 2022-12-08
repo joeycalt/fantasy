@@ -27,4 +27,4 @@ app.use('/public', express.static('public'))
 app.use('/', mainController)
 
 // 
-app.listen(process.env.PORT || 4000);
+app.listen(process.env.port || 4000);
