@@ -1,1 +1,1 @@
-echo "web: node app.js" 
+echo "web: nodemon app.js" 
