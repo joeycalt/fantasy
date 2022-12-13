@@ -12,9 +12,6 @@ router.use(bodyParser.json());
 // let myId = mongoose.Types.ObjectId()
 const path = require('path')
 
-app.set('views', path.join(__dirname, '/Users/joeycaltabellotta/Documents/JustForFun/views'));
-
-
 router.get('/',function(req,res){
     res.sendFile(path.join(__dirname));
     
