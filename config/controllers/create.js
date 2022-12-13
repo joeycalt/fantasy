@@ -1,5 +1,5 @@
-require ('../config/db.controller')
-const Post = require ('../model/Post')
+require ('../db.controller')
+const Post = require ('../../../model/Post')
 
 Post.create({
     week: 'week number',
