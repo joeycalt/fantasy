@@ -1,7 +1,7 @@
 const { Router, query } = require('express');
 const express = require('express');
 const router = express.Router();
-const Post = require('../../../model/Post')
+const Post = require('./../../model/Post')
 router.use(express.json());
 router.use(express.urlencoded({ extended: false }));
 const bodyParser = require('body-parser');
