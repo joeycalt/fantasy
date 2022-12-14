@@ -99,7 +99,6 @@ p {
         font-size: 14px;
         margin-top: 30px!important;
         margin-bottom: 0!important;
-        margin-left: 120px;
     }
     
     .add-section {
@@ -114,8 +113,8 @@ p {
         color: rgb(85, 85, 85);
         font-size: 14px;
         margin-top: 20px;
-        width: 20%;
-        margin-left: 140px;
+        width: 17%;
+        margin-left: 150px;
     }
 
     body {
@@ -133,10 +132,6 @@ p {
         width: 50px;
     }
 
-    .secondP {
-       margin-top: -140px;
-    }
-
     .showWeek {
         font-size: 20px;
     }
@@ -151,6 +146,7 @@ p {
         margin: auto;
         word-wrap: break-word;
         line-height: 30px;
+        font-size: 15px;
     }
 
     .link-title {

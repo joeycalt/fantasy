@@ -46,7 +46,7 @@ a:hover {
 
 .home-pics {
     margin-top: -150px;
-    border-radius: 10%;;
+    border-radius: 10%;
 }
 
 .division {
@@ -67,7 +67,7 @@ a:hover {
     grid-template-rows: 1fr 1fr;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 390px) {
     .navbar {
         font-size: 13px;
         padding: 5px;
@@ -107,5 +107,11 @@ a:hover {
 
     .home-title {
         font-size: 20px;
+    }
+
+    div.owners {
+        display: grid!important;
+        grid-template-columns: 1fr 1fr!important;
+        grid-template-rows: 1fr 1fr!important;
     }
 }
