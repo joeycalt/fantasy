@@ -22,20 +22,6 @@
     <h1>Fantasy Facts Football Facts Of The Week
         
     </h1>
-
-    <h2 class="link-title"> Click a week to Read:</h2>
-</div>
-    <% for( let i = 0; i<theFacts.length; i++){ %>
-        <% const showFacts = theFacts[i] %>
-      <div>
-        <a class= 'showWeek' href="/FFFFOTW/<%= showFacts._id %>">
-   Week <%= showFacts.week %>
-   </a>
-   <%}%>
-   
-   
-    </div>
-    
     
     <div class="add-section">
         <p class="secondP">Create a new Post</p>
@@ -45,10 +31,15 @@
         </button>
     </a>
     </div>
-        
-           
-
-
-           
+    <h2 class="link-title"> Click a week to Read:</h2>
+</div>
+    <% for( let i = 0; i<theFacts.length; i++){ %>
+        <% const showFacts = theFacts[i] %>
+      <div>
+        <a class= 'showWeek' href="/FFFFOTW/<%= showFacts._id %>">
+   Week <%= showFacts.week %>
+   </a>
+   <%}%>
+    </div>    
 </body>
 </html>

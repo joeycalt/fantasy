@@ -20,6 +20,8 @@ h1 {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a {
@@ -44,6 +46,7 @@ a:hover {
 
 .home-pics {
     margin-top: -150px;
+    border-radius: 10%;;
 }
 
 .division {
