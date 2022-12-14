@@ -12,7 +12,7 @@
     margin-right: 200px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 390px) {
     .navbar {
         font-size: 15px;
         padding: 5px;;
@@ -32,5 +32,13 @@
         width: 260px;
         height: 340px;
         margin-left: -110px;
+    }
+
+    .content-table {
+        margin-left: 180px!important;
+    }
+
+    .div-name {
+        margin-top: 40px;
     }
 }

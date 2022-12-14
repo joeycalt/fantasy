@@ -33,9 +33,11 @@
     </div>
     <h2 class="link-title"> Click a week to Read:</h2>
 </div>
+<div>
     <% for( let i = 0; i<theFacts.length; i++){ %>
         <% const showFacts = theFacts[i] %>
-      <div>
+    </div>
+      <div class="weeks">
         <a class= 'showWeek' href="/FFFFOTW/<%= showFacts._id %>">
    Week <%= showFacts.week %>
    </a>
