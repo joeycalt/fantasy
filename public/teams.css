@@ -12,6 +12,7 @@
     margin-right: 200px;
 }
 
+
 @media only screen and (max-width: 390px) {
     .navbar {
         font-size: 15px;
@@ -40,5 +41,9 @@
 
     .div-name {
         margin-top: 40px;
+    }
+
+    .table-name {
+        font-size: 15px;
     }
 }
