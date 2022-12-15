@@ -88,6 +88,7 @@ a:hover {
     .team-names {
         padding: 0;
         margin-top: 20px;
+        font-size: 16px;
     }
 
     .division {
