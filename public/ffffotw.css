@@ -77,7 +77,7 @@ p {
 }
 
 .showWeek {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .weeks {
@@ -135,7 +135,7 @@ p {
     }
 
     .showWeek {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     h1 {
@@ -160,7 +160,7 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        column-gap: 10px;
+        column-gap: 5px;
         row-gap: 30px;
         margin-top: 40px;
     }
