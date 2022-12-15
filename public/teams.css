@@ -37,6 +37,7 @@
 
     .content-table {
         margin-left: 180px!important;
+        width: 65%;
     }
 
     .div-name {
@@ -45,5 +46,9 @@
 
     .table-name {
         font-size: 15px;
+    }
+
+    th {
+        font-size: 18px;
     }
 }
